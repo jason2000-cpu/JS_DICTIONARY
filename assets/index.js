@@ -64,6 +64,7 @@ function fetchApi(word) {
       console.log()
     
     })
+    .catch((error)=>{console.log(error)})
 }
 
 //To initiate the search process
